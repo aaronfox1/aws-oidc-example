@@ -5,7 +5,7 @@ workflows:
       - oidc_testing:
           context: aws_credentials
 jobs:
-  deploy:
+  oidc_testing:
     docker:
       - image: amazon/aws-cli
     environment:
